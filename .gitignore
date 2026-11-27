@@ -1,5 +1,5 @@
-# Only the developer files go to GitHub (README, tools, docs, banlists, update index).
-# Everything big or third-party stays on this PC.
+# Published: only README.md and updates/ (the game reads its update index from there).
+# Everything else stays on this PC.
 
 /edopro/
 /windbot/
@@ -19,3 +19,7 @@
 __pycache__/
 *.pyc
 *.log
+
+# Developer-only (kept on this PC, never published)
+/dev/
+/README_DEV.txt
