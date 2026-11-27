@@ -1,0 +1,21 @@
+# Only the developer files go to GitHub (README, tools, docs, banlists, update index).
+# Everything big or third-party stays on this PC.
+
+/edopro/
+/windbot/
+/vcpkg/
+/dl/
+/d3d9sdk/
+/models/
+/game/
+/releases/
+/_tests/
+
+/dev/extracted/
+/dev/downloads/
+/dev/edopro-pack/
+/dev/docs/joey_voice_lines.json
+
+__pycache__/
+*.pyc
+*.log
